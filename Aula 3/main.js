@@ -14,3 +14,8 @@ var expoente = 2 ** 4;
 var modulo = 14 % 5;
 
 console.log(soma, subtracao, multiplicacao, divisao, expoente, modulo);
+
+var incremento = 5;
+console.log(incremento++);
+console.log(incremento);
+console.log(++incremento);
