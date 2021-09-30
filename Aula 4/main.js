@@ -44,3 +44,19 @@ if (possuiGraduacao && possuiDoutorado) {
 } else if (possuiDoutorado || possuiGraduacao) {
 	console.log('Não possui 1 true || false');
 }
+
+var cor = 'Azul';
+
+switch (cor) {
+	case 'Azul':
+		console.log('Olhe para o céu');
+		break;
+	case 'Rosa':
+		console.log('Olhe para as rosas');
+		break;
+	case 'Amarelo':
+		console.log('Olhe para o sol');
+		break;
+	default:
+		break;
+}
