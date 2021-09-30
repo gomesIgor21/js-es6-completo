@@ -19,3 +19,19 @@ var incremento = 5;
 console.log(incremento++);
 console.log(incremento);
 console.log(++incremento);
+
+// Exercicio
+
+var total = 10 + 5 * 2 / 2 + 20;
+console.log(total);
+
+var retornaNan = 10 + 5 + "cinco";
+var retornaNan2 = "5kg" + 10;
+
+var retornaComIncremento = 5;
+console.log(++retornaComIncremento);
+
+var peso = "80";
+var unidade = "kg";
+var pesoPorDois = (peso / 2) + unidade;
+console.log(pesoPorDois);
