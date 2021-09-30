@@ -5,3 +5,8 @@ var time; //Undefined
 var comida = null; //Null;
 var simbolo = Symbol() //Symbol
 var novoObjeto = {} //Object
+
+console.log(typeof nome);
+console.log(typeof idade);
+console.log(typeof possuiFaculdade);
+console.log(typeof comida);
