@@ -8,25 +8,39 @@ if (possuiGraduacao) {
 }
 
 possuiGraduacao = false;
-if(!possuiGraduacao) {
-  console.log("Não possui graduação")
+if (!possuiGraduacao) {
+	console.log('Não possui graduação');
 }
 
 // > (Maior)/ < (menor)
-if(10 > 5) {
-  console.log("10 maior que 5");
+if (10 > 5) {
+	console.log('10 maior que 5');
 }
 
 // >= (Maior ou Igual)/ <= (Menor ou igual)
-if(10 >= 10) {
-  console.log("10 é igual a 10")
+if (10 >= 10) {
+	console.log('10 é igual a 10');
 }
 
-if( 10 == '10') {
-  console.log("Verdadeiro ==")
+if (10 == '10') {
+	console.log('Verdadeiro ==');
 }
 
 //Igualdade estrita valor e tipo
-if( 10 === '10') {
-  console.log("Verdadeiro ===")
+if (10 === '10') {
+	console.log('Verdadeiro ===');
+}
+
+possuiGraduacao = true;
+possuiDoutorado = true;
+
+if (possuiDoutorado && possuiGraduacao) {
+	console.log('Possui os dois true && true');
+}
+
+possuiGraduacao = false;
+if (possuiGraduacao && possuiDoutorado) {
+	console.log('Possui apenas 1');
+} else if (possuiDoutorado || possuiGraduacao) {
+	console.log('Não possui 1 true || false');
 }
