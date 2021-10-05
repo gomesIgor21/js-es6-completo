@@ -14,4 +14,6 @@ function imc(peso, altura) {
 var imc = imc(80, 1.7); // 80 e 1.70 são os argumentos
 console.log(imc);
 
-
+addEventListener('click', function(params) {
+	console.log("Clicou");	
+})
